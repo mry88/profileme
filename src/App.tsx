@@ -157,8 +157,8 @@ function App() {
   };
 
   const currentYear = new Date().getFullYear();
-  const whatsappNumber = "+1234567890"; // Replace with your WhatsApp number
-  const email = "john.doe@example.com"; // Replace with your email
+  const whatsappNumber = "+6282228086024"; //WhatsApp number
+  const email = "yusufmuhammadrizal@gmail.com"; //email
 
   return (
     <div className="min-h-screen bg-[#2D336B] text-white relative">
@@ -192,25 +192,25 @@ function App() {
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-              John Doe
+              Rizal Yusuf
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-[#A9B5DF]">
-              Full Stack Developer
+              Web Developer
             </p>
             <div className="flex justify-center gap-4">
-              <a href="https://github.com" 
+              <a href="https://github.com/mry88" 
                  target="_blank"
                  rel="noopener noreferrer"
                  className="p-3 bg-[#7886C7] rounded-full hover:bg-[#A9B5DF] transition-colors">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com" 
+              <a href="https://www.linkedin.com/in/muhammad-rizal-yusuf-46173117a/" 
                  target="_blank"
                  rel="noopener noreferrer"
                  className="p-3 bg-[#7886C7] rounded-full hover:bg-[#A9B5DF] transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="https://instagram.com" 
+              <a href="https://instagram.com/rzl.y8" 
                  target="_blank"
                  rel="noopener noreferrer"
                  className="p-3 bg-[#7886C7] rounded-full hover:bg-[#A9B5DF] transition-colors">
@@ -379,7 +379,7 @@ function App() {
               </a>
             </div>
             <p className="text-[#A9B5DF]">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} rzl.y8. All rights reserved.
             </p>
           </div>
         </div>
